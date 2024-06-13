@@ -1,0 +1,21 @@
+/* Load Header-Items Animations Desktop*/
+@keyframes load_header_items {
+  0% {
+    transform: translateY(60px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Load Profile Image Animations */
+@keyframes load_profile_image {
+  0% {
+    scale: 0;
+  }
+  100% {
+    scale: 1;
+  }
+}
